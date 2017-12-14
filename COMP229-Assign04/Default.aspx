@@ -3,40 +3,89 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        
     </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
-        </div>
-    </div>
-
+    <asp:GridView ID="game" runat="server" AutoGenerateColumns="False" >
+    <columns>
+        <asp:BoundField DataField="Mininame"
+            HeaderText=“Model” />
+        </columns>
+</asp:GridView>
+    <h1>Please input new models here:</h1>
+    <table runat="server">
+        <tr>
+            <td>Name</td>
+            <td>
+            <asp:TextBox ID="name" runat="server"></asp:TextBox>
+            </td>
+        </tr>
+         <tr>
+            <td>Fraction</td>
+            <td>
+            <asp:TextBox ID="fraction" runat="server"></asp:TextBox>
+            </td>
+        </tr>
+         <tr>
+            <td>Rank</td>
+            <td>
+            <asp:TextBox ID="rank" runat="server" TextMode="Number"></asp:TextBox>
+            </td>
+        </tr>
+         <tr>
+            <td>Base</td>
+            <td>
+            <asp:TextBox ID="Base" runat="server" TextMode="Number"></asp:TextBox>
+            </td>
+        </tr>
+         <tr>
+            <td>Size</td>
+            <td>
+            <asp:TextBox ID="Size" runat="server" TextMode="Number"></asp:TextBox>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Deploymentzone</td>
+            <td>
+            <asp:TextBox ID="deploymentzone" runat="server"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td>Wound</td>
+            <td>
+            <asp:TextBox ID="wound" runat="server" TextMode="Number"></asp:TextBox>
+            </td>
+        </tr>
+                <tr>
+            <td>Mobility</td>
+            <td>
+            <asp:TextBox ID="Mobility" runat="server" TextMode="Number"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td>Willpower</td>
+            <td>
+            <asp:TextBox ID="willpower" runat="server" TextMode="Number"></asp:TextBox>
+            </td>
+        </tr>
+            <tr>
+            <td>Resilliance</td>
+            <td>
+            <asp:TextBox ID="resilliance" runat="server" TextMode="Number"></asp:TextBox>
+            </td>
+        </tr>
+          <tr>
+            <td>Wounds</td>
+            <td>
+            <asp:TextBox ID="wounds" runat="server" TextMode="Number"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <asp:Button ID="addModel" runat="server" Text="ADD" OnClick="addModel_Click" />
+            </td>
+        </tr>
+    </table>
+   
 </asp:Content>
