@@ -10,124 +10,124 @@
 namespace COMP229_Assign04 {
     
     
-    public partial class About {
+    public partial class Contact {
         
         /// <summary>
-        /// name control.
+        /// nameDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label name;
+        protected global::System.Web.UI.WebControls.TextBox nameDisplay;
         
         /// <summary>
-        /// faction control.
+        /// factionDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label faction;
+        protected global::System.Web.UI.WebControls.TextBox factionDisplay;
         
         /// <summary>
-        /// rank control.
+        /// rankDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label rank;
+        protected global::System.Web.UI.WebControls.TextBox rankDisplay;
         
         /// <summary>
-        /// Base control.
+        /// BaseDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Base;
+        protected global::System.Web.UI.WebControls.TextBox BaseDisplay;
         
         /// <summary>
-        /// size control.
+        /// sizeDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label size;
+        protected global::System.Web.UI.WebControls.TextBox sizeDisplay;
         
         /// <summary>
-        /// deploymentZone control.
+        /// deploymentZoneDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label deploymentZone;
+        protected global::System.Web.UI.WebControls.TextBox deploymentZoneDisplay;
         
         /// <summary>
-        /// trait control.
+        /// traitDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label trait;
+        protected global::System.Web.UI.WebControls.TextBox traitDisplay;
         
         /// <summary>
-        /// Type control.
+        /// TypeDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Type;
+        protected global::System.Web.UI.WebControls.TextBox TypeDisplay;
         
         /// <summary>
-        /// Defensechart control.
+        /// DefensechartDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Defensechart;
+        protected global::System.Web.UI.WebControls.TextBox DefensechartDisplay;
         
         /// <summary>
-        /// mobility control.
+        /// mobilityDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label mobility;
+        protected global::System.Web.UI.WebControls.TextBox mobilityDisplay;
         
         /// <summary>
-        /// willpower control.
+        /// willpowerDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label willpower;
+        protected global::System.Web.UI.WebControls.TextBox willpowerDisplay;
         
         /// <summary>
-        /// resiliance control.
+        /// resilianceDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label resiliance;
+        protected global::System.Web.UI.WebControls.TextBox resilianceDisplay;
         
         /// <summary>
-        /// wound control.
+        /// woundDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label wound;
+        protected global::System.Web.UI.WebControls.TextBox woundDisplay;
         
         /// <summary>
         /// actionGrid control.
@@ -146,32 +146,5 @@ namespace COMP229_Assign04 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView Grid_special;
-        
-        /// <summary>
-        /// model_image control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image model_image;
-        
-        /// <summary>
-        /// UpdateModel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton UpdateModel;
-        
-        /// <summary>
-        /// DeleteModel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DeleteModel;
     }
 }

@@ -1,82 +1,82 @@
-﻿<%@ Page Title="Model" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Model.aspx.cs" Inherits="COMP229_Assign04.About" %>
+﻿<%@ Page Title="Update" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Update.aspx.cs" Inherits="COMP229_Assign04.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <table>
-        <tr>
+   <table runat="server">
+         <tr>
             <td>Name
            </td>
-            <td><asp:Label ID="name" runat="server"></asp:Label></td>          
+            <td><asp:TextBox ID="nameDisplay" runat="server"></asp:TextBox></td>          
         </tr>
             <tr>
             <td>Faction
            </td>
-            <td><asp:Label ID="faction" runat="server"></asp:Label></td>
+            <td><asp:TextBox ID="factionDisplay" runat="server"></asp:TextBox></td>
             
         </tr>
          <tr>
             <td>Rank
            </td>
-            <td> <asp:Label ID="rank" runat="server" ></asp:Label></td>
+            <td> <asp:TextBox ID="rankDisplay" runat="server" ></asp:TextBox></td>
            
         </tr>
         <tr>
             <td>Base
            </td>
-            <td><asp:Label ID="Base" runat="server"></asp:Label></td>
+            <td><asp:TextBox ID="BaseDisplay" runat="server"></asp:TextBox></td>
             
         </tr>
         <tr>
             <td>Size
            </td>
-            <td> <asp:Label ID="size" runat="server"></asp:Label></td>
+            <td> <asp:TextBox ID="sizeDisplay" runat="server"></asp:TextBox></td>
            
         </tr>
         <tr>
             <td>DeploymentZone
            </td>
-            <td> <asp:Label ID="deploymentZone" runat="server"></asp:Label></td>
+            <td> <asp:TextBox ID="deploymentZoneDisplay" runat="server"></asp:TextBox></td>
            
         </tr>
         <tr>
             <td>Trait
            </td>
-            <td> <asp:Label ID="trait" runat="server"></asp:Label></td>
+            <td> <asp:TextBox ID="traitDisplay" runat="server"></asp:TextBox></td>
            
         </tr>
         <tr>
             <td>Type
            </td>
-            <td><asp:Label ID="Type" runat="server"></asp:Label></td>
+            <td><asp:TextBox ID="TypeDisplay" runat="server"></asp:TextBox></td>
             
         </tr>
         <tr>
             <td>Defensechart
            </td>
-            <td><asp:Label ID="Defensechart" runat="server"></asp:Label></td>
+            <td><asp:TextBox ID="DefensechartDisplay" runat="server"></asp:TextBox></td>
             
         </tr>
          <tr>
             <td>Mobility
            </td>
-            <td><asp:Label ID="mobility" runat="server"></asp:Label></td>
+            <td><asp:TextBox ID="mobilityDisplay" runat="server"></asp:TextBox></td>
             
         </tr>
          <tr>
             <td>Willpower
            </td>
-            <td><asp:Label ID="willpower" runat="server"></asp:Label></td>
+            <td><asp:TextBox ID="willpowerDisplay" runat="server"></asp:TextBox></td>
             
         </tr>
          <tr>
             <td>Resiliance
            </td>
-            <td><asp:Label ID="resiliance" runat="server"></asp:Label></td>
+            <td><asp:TextBox ID="resilianceDisplay" runat="server"></asp:TextBox></td>
             
         </tr>
          <tr>
             <td>Wounds
            </td>
-            <td><asp:Label ID="wound" runat="server"></asp:Label></td>
+            <td><asp:TextBox ID="woundDisplay" runat="server"></asp:TextBox></td>
             
         </tr>
         <tr>
@@ -119,26 +119,6 @@
                  </asp:GridView>
             </td>     
         </tr>
-        <tr>
-            <td>Image</td>
-            <td>
-                <asp:Image ID="model_image" runat="server" ImageUrl=model_image />
-            </td>
-        </tr>
         
-    </table>
-            
-               
-    <table runat="server" align="left" style="width: 117px">
-        <tr>
-            <td>
-                <asp:LinkButton ID="UpdateModel" runat="server" OnClick="UpdateModel_Click">UPDATE</asp:LinkButton>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Button ID="DeleteModel" runat="server" Text="DELETE" OnClick="DeleteModel_Click" style="height: 26px" />
-            </td>
-        </tr>
     </table>
 </asp:Content>
