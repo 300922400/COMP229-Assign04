@@ -8,7 +8,8 @@
     <asp:GridView ID="game" runat="server" AutoGenerateColumns="False" >
     <columns>
         <asp:BoundField DataField="Mininame"
-            HeaderText=“Model” />
+            HeaderText=Model />
+        <asp:HyperLinkField DataNavigateUrlFields="MiniName" DataNavigateUrlFormatString="Model.aspx?model={0}" Text="Details" />
         </columns>
 </asp:GridView>
     <h1>Please input new models here:</h1>
