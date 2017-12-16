@@ -130,21 +130,12 @@ namespace COMP229_Assign04 {
         protected global::System.Web.UI.WebControls.TextBox woundDisplay;
         
         /// <summary>
-        /// actionGrid control.
+        /// Update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView actionGrid;
-        
-        /// <summary>
-        /// Grid_special control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView Grid_special;
+        protected global::System.Web.UI.WebControls.Button Update;
     }
 }

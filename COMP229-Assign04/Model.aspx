@@ -122,7 +122,7 @@
         <tr>
             <td>Image</td>
             <td>
-                <asp:Image ID="model_image" runat="server" ImageUrl=model_image />
+                <asp:Image ID="model_image" Width="200" runat="server"/>
             </td>
         </tr>
         

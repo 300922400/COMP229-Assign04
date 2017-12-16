@@ -80,45 +80,10 @@
             
         </tr>
         <tr>
-            <td>Action
-           </td>
+            <td></td>
             <td>
+                <asp:Button ID="Update" runat="server" Text="UPDATE" OnClick="Update_Click" />
             </td>
-            
         </tr>
-        <tr>
-            <td>
-           </td>
-            <td>
-                <asp:GridView ID="actionGrid" runat="server" AutoGenerateColumns="False">
-                    <Columns>
-                        <asp:BoundField HeaderText="Name"  DataField="name"/>
-                        <asp:BoundField HeaderText="Type" DataField="type" />
-                        <asp:BoundField HeaderText="Rating" DataField="rating" />
-                        <asp:BoundField HeaderText="Range" DataField="range" />
-                    </Columns>
-                </asp:GridView>
-            </td>
-            
-        </tr>
-        <tr>
-            <td>SpecialAbilities
-           </td>
-            <td>
-            </td>     
-        </tr>
-        <tr>
-            <td>
-           </td>
-            <td>
-                <asp:GridView ID="Grid_special" runat="server" AutoGenerateColumns="false">
-                 <Columns>
-                        <asp:BoundField HeaderText="Name"  DataField="name"/>
-                        <asp:BoundField HeaderText="Description" DataField="description" />
-                 </Columns>
-                 </asp:GridView>
-            </td>     
-        </tr>
-        
     </table>
 </asp:Content>
