@@ -2,6 +2,7 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color:lightblue;
 }
 
 /* Wrapping element */
@@ -36,3 +37,14 @@ input[type="select"] {
         padding: 0;
     }
 }
+.jumbotron {
+    background-repeat: no-repeat;
+    background-image: url('../Image/wok_banner.jpg');
+    background-size: cover;
+    height: 325px;
+}
+.css_default{
+    color:midnightblue;
+    text-align:left;
+}
+

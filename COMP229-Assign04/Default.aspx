@@ -5,15 +5,19 @@
     <div class="jumbotron">
         
     </div>
-    <asp:GridView ID="game" runat="server" AutoGenerateColumns="False" >
+    <h1 class="css_default">List of Models:</h1>
+    <div class="defaultcss">
+    <asp:GridView ID="game" runat="server" AutoGenerateColumns="False"  >
     <columns>
         <asp:BoundField DataField="Mininame"
             HeaderText=Model />
         <asp:HyperLinkField DataNavigateUrlFields="MiniName" DataNavigateUrlFormatString="Model.aspx?model={0}" Text="Details" />
         </columns>
 </asp:GridView>
-    <h1>Please input new models here:</h1>
-    <table runat="server">
+        </div>
+    <h1 class="css_default">Please input new models here:</h1>
+    <div class="defaultcss">
+    <table runat="server" class="tableDefault">
         <tr>
             <td>Name</td>
             <td>
@@ -88,5 +92,5 @@
             </td>
         </tr>
     </table>
-   
+   </div>
 </asp:Content>
