@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Model" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Model.aspx.cs" Inherits="COMP229_Assign04.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <h1></h1>
     <table>
         <tr>
             <td>Name
